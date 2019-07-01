@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Revolução do Século</title>
+    <link rel="icon" href="imagens/icone/icone">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="trocaimg.js"> </script>
+  </head>
+  <body>
+
+    <header div class="navbar">
+      <audio src="terra_plana.mp3" controls loop volume=0.5>
+      </audio>
+      <h1>O TERRAPLANISTA</h1>
+      <h2>Constatação da Realidade</h2>
+      <ul>
+
+        <li><a href="">Experimentos</a></li>
+        <li><a href="artigos.html">Artigos</a></li>
+        <li><a href="celebridades.html">Celebridades</a></li>
+      </ul>
+    </header>
+    <main>
+      <h1> INÍCIO </h1>
+      <div class="Index">
+      <div class="N1">
+      <h2>Novas Evidências</h2>
+      <div class="imagens">
+      <img src="imagens/aviao.jpg" alt="imagem alterada por JS" id="trocarimg">
+            <input type="button" value="Edilberto Juqueira" onclick="regua_horizonte();" />
+            <input type="button" value="Canal Terraplanices" onclick="sapato();"/>
+            <input type="button" value="Maurício Poccetino" onclick="aviao();"/>
+          </div>
+        </div>
+        <div class="Noticias">
+        <h2 id="Noticia"> Notícias Recentes </h2>
+          <img src="imagens/olavin.jpg" alt="">
+          <p>Olavo de Carvalho se revela terraplanista e se
+            junta ao grupo da verdade. Veja mais na Reportagem da Revista Gaúcha "<a href="https://urlzs.com/bSU4g">GaúchaZH</a>".</p>
+          <img id="Profe" src="imagens/profeTerraPlana.jpg" alt="">
+            <p>Professor Terra Plana revela estar trabalhando para a volta do seu canal com um conteúdo que promete calar a boca dos globalistas.
+              Veja o <a href="https://www.youtube.com/channel/UC3mPqVcIe7WR40Xo7VGgLcw">Canal</a>.</p>
+          <video id="Profe" controls>
+          <source src="videos/videoGeneralHeleno.mp4" type="video/mp4">
+          </video>
+            <p> O Ministro do Gabinete de Segurança Institucional General Heleno mostrou
+              claramente no vídeo sua posição em relação à verdade. Veja com muita atenção. Vídeo por <a href="https://twitter.com/VoxGilmar/status/1133897161492639744">Gilmar de Alcântara</a>.</p>
+      </div>
+    </div>
+    </main>
+    <footer>
+           <img src="imagens/terra plana.png" alt="">
+           <p> Todos os dados presentes neste site são verificados e revisados, portanto, verídicos. Acreditamos muito na frase:<em> "Se está na internet é verdade"</em>.</p>
+     </footer>
+     <script>
+
+             rotate = 0;
+
+             document.addEventListener("DOMContentLoaded", function(){ .
+
+                 document.getElementById("next").addEventListener("click", function(){
+                     if(rotate== 360){rotate = 0}
+                     rotate = rotate + 30;
+                     document.getElementById("img").style.transform = "rotate("+rotate+"deg)";
+                 });
+
+                 document.getElementById("back").addEventListener("click", function(){
+                     if(rotate== -360){rotate = 0}
+                     rotate = rotate + -30 ;
+                     document.getElementById("img").style.transform = "rotate("+rotate+"deg)";
+                 });
+             });
+
+         </script>
+     </head>
+     <body>
+         <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwimqO6u3JLjAhUxJrkGHQZXDFsQjRx6BAgBEAU&url=https%3A%2F%2Funiversoracionalista.org%2Felon-musk-pergunta-por-que-ninguem-acredita-que-o-planeta-marte-e-plano-e-a-sociedade-da-terra-plana-responde%2F&psig=AOvVaw3hEUzHuoiYoj-PGtTddI9I&ust=1562036175987539" class="" id="" alt="Teste" />
+         <!--Aqui você carrega a imagem de sua escolha -->
+         <br />
+         <button id="back">Voltar </button> <!--botão voltar-->
+         <button id="next">avançar</button> <!--botão avançar-->
+  </body>
+</html>
